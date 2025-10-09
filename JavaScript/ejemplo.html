@@ -3,23 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SUMA</title>
   
 </head>
 <body>
-    <header>
-        <h1>Ejemplo de JavaScript</h1>
-    </header>
-    <script src="JS/App.js"></script>
-    <label for="num">numero 1: </label>
-    <input type="text" id="num" name="num" placeholder=" Ingresa un numero">
+   <main>
+    <label for="numero1">
+        numero 1
+    </label>
+    <input type = "number" id="numero1">
 
-    <label for="num2">numero 2: </label>
-    <input type="text" id="num2" name="num2" placeholder=" Ingresa otro numero">
+    <label for="numero2">
+        numero 2
+    </label>
+    <input type="number" id="numero2">
+    <div id="mostrarResultado">
 
-     <button onclick="sumar()">Sumar</button>
+    </div>
+    <button id="sumar">Sumar</button>
 
-     <p>Resultado: <span id="resultado1"></span></p>
+    <button id="resta">Resta</button>
+
+    <button id="multipli">Multiplicación</button>
+
+    <button id="divi">División</button>
+
+   </main>
+
+   <script src="JS/App.js"> </script>
+
 
 </body>
 </html>
