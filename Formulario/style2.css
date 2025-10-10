@@ -1,0 +1,25 @@
+.azul{
+    color: cornflowerblue;
+    font-family: 'Times New Roman';
+}
+
+.boton{
+    background-color: rgb(43, 86, 204);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.texto{
+    font-family: 'Arial', sans-serif;
+    font-size: 23px;
+    color: #333;
+}
+
+.input{
+    padding: 8px;
+    border: 1px solid #1164b6;
+    border-radius: 4px;
+}

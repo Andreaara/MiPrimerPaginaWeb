@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <h1 class="azul">Registro</h1>
+
+    <form id="registroForm">
+        
+        <div>
+            <label for="nombre" class="texto">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" class="input">
+        </div>
+        <br>
+
+        <div>
+            <label for="apellido" class="texto">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" class="input">
+        </div>
+        <br>
+
+        <div>
+            <label for="fechaNacimiento" class="texto">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" class="input">
+        </div>
+        <br>
+
+        <div>
+            <label class="texto">Género:</label>
+            <input type="radio" id="masculino" name="genero" value="Masculino">
+            <label for="masculino" class="texto">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="Femenino">
+            <label for="femenino" class="texto">Femenino</label>
+            <input type="radio" id="otro" name="genero" value="Otro">
+            <label for="otro" class="texto">Otro</label>
+        </div>
+        <br>
+
+        <div>
+            <input type="checkbox" id="terminos" name="terminos">
+            <label for="terminos" class="texto">Acepto los términos y condiciones</label>
+        </div>
+        <br>
+
+        <button type="submit" class="boton">Enviar Registro</button>
+    </form>
+
+    <hr>
+    
+    <p id="mensaje" class="texto">Aquí se mostrará el resultado de la validación.</p>
+
+    <script src="App.js"></script>
+
+</body>
+</html>
